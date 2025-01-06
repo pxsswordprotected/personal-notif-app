@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Notifications</title>
+</head>
+<body>
+  <h1>Notifications</h1>
+  <ul>
+    <% notifications.forEach(notification => { %>
+      <li><%= notification.label %> - <%= notification.time %></li>
+    <% }) %>
+  </ul>
+  <a href="/add">Add Notification</a>
+</body>
+</html>

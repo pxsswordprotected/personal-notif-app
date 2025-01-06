@@ -1,0 +1,26 @@
+{
+  "name": "node-pushover",
+  "description": "node.js pushover module for https://pushover.net/api",
+  "version": "1.0.0",
+  "author": {
+    "name": "Sam Decrock",
+    "url": "https://github.com/SamDecrock/"
+  },
+  "bugs": {
+    "url": "https://github.com/SamDecrock/node-pushover/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SamDecrock/node-pushover.git"
+  },
+  "main": "./pushover",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "dependencies": {
+    "httpreq": "*"
+  }
+}
